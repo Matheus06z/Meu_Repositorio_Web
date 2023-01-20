@@ -1,4 +1,4 @@
-// Sticky Navigation Menu Js
+
 
 let nav = document.querySelector("nav");
 let scrollBtn = document.querySelector(".scroll-button a");
@@ -15,7 +15,7 @@ window.onscroll = function() {
   }
 }
 
-// Side Navigation Menu Js
+
 let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
@@ -37,7 +37,7 @@ cancelBtn.onclick = function() {
   scrollBtn.style.pointerEvents = "auto";
 }
 
-// Side Navigation Bar Close While We click On Navigation Links
+
 
 let navLinks = document.querySelectorAll(".menu li a");
 for (var i = 0; i < navLinks.length; i++) {
